@@ -24,7 +24,7 @@ typewriter.typeString('I\'m Amal J Sam')
     .typeString('I\'m a Student')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('I\'m Web Designer')
+    .typeString('Hello')
     .pauseFor(2500)
     .start();
 
