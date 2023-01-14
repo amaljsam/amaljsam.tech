@@ -18,13 +18,13 @@ let typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('I\'m Amal J Sam')
+typewriter.typeString('Hello')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('I\'m a Student')
+    .typeString('Welcome')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Hello')
+    .typeString('I\'m Amal J Sam')
     .pauseFor(2500)
     .start();
 
