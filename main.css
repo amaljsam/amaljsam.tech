@@ -372,21 +372,9 @@ button{
 .contact-form{
     padding: 1rem 0;
 }
-.contact-form input[type = "text"],
-.contact-form input[type = "email"],
-.contact-form textarea{
-    width: 100%;
-    border: none;
-    border-bottom: 1.5px solid #c7c7c7;
-    font-size: 1rem;
-    padding: 0.7rem;
-    margin-bottom: 1.5rem;
-    font-family: var(--smallFont);
-    outline: 0;
+
 }
-.contact-form input:focus,
-.contact-form textarea:focus{
-    border-color: var(--darkCharcoal);
+
 }
 .contact-form input[type = "submit"]{
     cursor: pointer;
