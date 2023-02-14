@@ -21,7 +21,7 @@ let typewriter = new Typewriter(app, {
 typewriter.typeString('Hello')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Welcome')
+    .typeString('Welcome To My Portfolio')
     .pauseFor(2500)
     .deleteAll()
     .typeString('I\'m Amal J Sam')
