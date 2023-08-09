@@ -9,6 +9,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/favicon-121x125.png" type="image/x-icon">
   <meta name="description" content="">
+
+
+
+
+  <style>
+    .share-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .share-button {
+      cursor: pointer;
+      padding: 10px 15px;
+      background-color: #000000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  </style>
+
+
   
   
   <title>The Blog Of Amal J Sam</title>
@@ -86,6 +109,44 @@
             </div>
         </div>
     </div>
+
+
+
+    <div class="share-buttons">
+        <button class="share-button" id="facebook">Share on Facebook</button>
+        <button class="share-button" id="twitter">Share on Twitter</button>
+        <button class="share-button" id="linkedin">Share on LinkedIn</button>
+      </div>
+    
+      <script>
+        document.getElementById('facebook').addEventListener('click', function() {
+          shareOnFacebook();
+        });
+    
+        document.getElementById('twitter').addEventListener('click', function() {
+          shareOnTwitter();
+        });
+    
+        document.getElementById('linkedin').addEventListener('click', function() {
+          shareOnLinkedIn();
+        });
+    
+        function shareOnFacebook() {
+          window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.amaljsam.me/blog/blog/How_to_Unlock_Your_Potential_and_Create_a_Path_to_Self_Improvement/' );
+        }
+    
+        function shareOnTwitter() {
+          window.open('https://twitter.com/intent/tweet?url=https://www.amaljsam.me/blog/blog/How_to_Unlock_Your_Potential_and_Create_a_Path_to_Self_Improvement/');
+        }
+    
+        function shareOnLinkedIn() {
+          window.open('https://www.linkedin.com/shareArticle?url=https://www.amaljsam.me/blog/blog/How_to_Unlock_Your_Potential_and_Create_a_Path_to_Self_Improvement/' );
+        }
+      </script>
+
+
+
+
 </section>
 
 <section data-bs-version="5.1" class="content1 cid-s48vaXqeL6" id="content1-b">
