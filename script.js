@@ -12,11 +12,18 @@ navBtn.addEventListener('click', () => {
     navMenu.classList.toggle('toggleNav');
 });
 
+
+/*
 // typewriter
 let app = document.getElementById('typeEffect');
 let typewriter = new Typewriter(app, {
     loop: true
 });
+
+
+
+
+
 
 typewriter.typeString('Hello')
     .pauseFor(2500)
@@ -27,6 +34,12 @@ typewriter.typeString('Hello')
     .typeString('I\'m Amal J Sam')
     .pauseFor(2500)
     .start();
+
+
+
+*/
+
+
 
 
 // stopping transition during resizing
