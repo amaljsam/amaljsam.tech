@@ -3,10 +3,10 @@
 :root{
     --largeFont: 'Raleway', sans-serif;
     --smallFont: 'Rubik', sans-serif;
-    --whiteSmoke: yellow;
+    --whiteSmoke: #ffe200;
     --darkCharcoal: #333;
     --transition: all 0.4s ease;
-    background: rgb(225, 255, 1);
+    background:yellow;
 }
 
 *{
@@ -183,7 +183,7 @@ button{
 
 /* header */
 .header{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/banner-img.jpg) center/cover no-repeat fixed ;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(assets/banner-img.jpg) center/cover no-repeat fixed ;
     height: 100vh;
 }
 .header .row{
