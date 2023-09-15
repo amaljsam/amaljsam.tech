@@ -3,10 +3,10 @@
 :root{
     --largeFont: 'Raleway', sans-serif;
     --smallFont: 'Rubik', sans-serif;
-    --whiteSmoke: #ffe200;
+    --whiteSmoke: #9a9a9a;
     --darkCharcoal: #333;
     --transition: all 0.4s ease;
-    background:yellow;
+     background: rgb(255, 255, 255);
 }
 
 *{
@@ -27,7 +27,7 @@ body{
 /* preloader */
 .preloader{
     position: absolute;
-    background: yellow;
+    background: #9a9a9a;
     z-index: 1000;
     left: 0;
     top: 0;
@@ -39,7 +39,7 @@ body{
 }
 .loader{
     display: inline-block;
-  background-color: yellow;
+  background-color: #9a9a9a;
   animation: spin 2s linear infinite;
 }
 @keyframes spin{
@@ -106,7 +106,7 @@ button{
     padding: 0.6rem 0;
     width: 180px;
     transition: all 0.5s ease-in-out;
-    background: yellow;
+    background: rgb(255, 255, 255);
 }
 .btn:hover{
     background: #000;
@@ -116,7 +116,7 @@ button{
 
 /* navbar */
 .navbar{
-    background: yellow;
+    background: rgb(255, 255, 255);
     position: fixed;
     top: 0;
     left: 0;
