@@ -277,7 +277,7 @@ ul.social-links {
     padding: 0.4rem 0;
 }
 .about .row.two{
-    background: var(--whiteSmoke);
+    background:#000000;
     padding-top: 4rem;
     padding-bottom: 4rem;
     text-align: center;
@@ -287,10 +287,12 @@ ul.social-links {
     margin: 0.5rem 0;
 }
 .about .row.two .item span{
+   color:#ffffff;
     font-size: 2rem;
 }
 .about .row.two .item h3{
     text-transform: uppercase;
+    color:#ffffff;
     font-weight: 300;
     font-size: 1rem;
 }
