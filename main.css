@@ -213,7 +213,7 @@ ul.social-links {
     display: block;
     margin: 1rem;
     font-size: 1.4rem;
-    color: #2a2929;
+    color: #ffffff;
     transition: var(--transition);
 }
 .social-links li:hover{
