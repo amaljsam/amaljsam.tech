@@ -26,34 +26,26 @@ body{
 
 /* preloader */
 .preloader{
-    position: absolute;
-    background: #9a9a9a;
-    z-index: 1000;
+    position: fixed;
+    background: #D0D1CE;
+    z-index: 999;
     left: 0;
     top: 0;
-    width: 100%;
+    width: fit-content;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content:center;
   align-items: center;
 }
 .loader{
     display: inline-block;
-  background-color: #9a9a9a;
-  animation: spin 2s linear infinite;
-}
-@keyframes spin{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+  background-color: #ff000000;
+  
 }
 
 .loader img {
-    width: 100px; /* Adjust the image size as needed */
-    height: 100px;
+    width: 100%; /* Adjust the image size as needed */
+    height: 100%;
 
 }
 
